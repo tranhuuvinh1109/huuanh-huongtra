@@ -1,4 +1,4 @@
-import { Message, Poster, Time, Address } from "../../components";
+import { Message, Poster, Time, Address, MessageCongratulation } from "../../components";
 
 const HomePage = () => {
   return (
@@ -7,6 +7,7 @@ const HomePage = () => {
       <Time />
       <Message />
       <Address />
+      <MessageCongratulation />
       <div className="h-24"></div>
     </div>
   );

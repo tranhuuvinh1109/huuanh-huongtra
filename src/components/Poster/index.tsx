@@ -60,7 +60,7 @@ const Poster = () => {
   return (
     <div className="relative  overflow-hidden text-center text-white">
       <div
-        className="bg-cover bg-no-repeat md:min-h-[800px] md:min-w-[1500px]"
+        className="min-h-[600px] w-full bg-cover bg-no-repeat md:min-h-[800px] md:min-w-[1500px]"
         style={{
           backgroundImage: `url(${PosterIMG})`,
           backgroundPosition: "50% 60%",
@@ -73,7 +73,7 @@ const Poster = () => {
           background: "linear-gradient(to bottom, rgba(245, 246, 252, 0.32), rgba(117, 19, 93, 0.53))",
         }}
       >
-        <h1 className="font-ballet mb-4 flex items-center justify-center text-4xl font-semibold tracking-widest">
+        <h1 className="mb-4 flex items-center justify-center font-ballet text-3xl font-semibold tracking-widest md:text-4xl">
           Hữu Anh - Hương Trà
         </h1>
         <h1 className="mb-2 text-2xl font-semibold text-white">-We Are Getting Married-</h1>

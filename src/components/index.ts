@@ -5,4 +5,5 @@ import Time from "./Time";
 import Message from "./Message";
 import Address from "./Address";
 import MessageCongratulation from "./MessageCongratulation";
-export { Layout, Container, Poster, Time, Message, Address, MessageCongratulation };
+import BankAccount from "./BankAccount";
+export { Layout, Container, Poster, Time, Message, Address, MessageCongratulation, BankAccount };

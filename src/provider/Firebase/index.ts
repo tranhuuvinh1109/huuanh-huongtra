@@ -37,7 +37,7 @@ const setDataToFirebase = async (refPath: string, value: unknown) => {
   }
 };
 
-const uploadImageToFirebase = async (file: File, folderPath: string): Promise<string | null> => {
+const uploadImageToFirebase = async (file: File, folderPath: string = "wedding"): Promise<string | null> => {
   if (!file) {
     throw new Error("No file provided");
   }

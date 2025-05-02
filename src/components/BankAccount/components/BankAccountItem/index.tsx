@@ -39,7 +39,7 @@ const BankAccountItem = ({ bankAccountData }: BankAccountItemProps) => {
         </div>
       </div>
       <div>
-        <img src={qrImage} alt="qr" className="w-24 md:w-48" />
+        <img src={qrImage} alt="qr" className="w-16 md:w-48" />
         <button
           onClick={handleDownload}
           className="flex w-full justify-center rounded-lg bg-content py-1 text-white hover:bg-gray-700"

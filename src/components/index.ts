@@ -6,4 +6,5 @@ import Message from "./Message";
 import Address from "./Address";
 import MessageCongratulation from "./MessageCongratulation";
 import BankAccount from "./BankAccount";
-export { Layout, Container, Poster, Time, Message, Address, MessageCongratulation, BankAccount };
+import Album from "./Album";
+export { Layout, Container, Poster, Time, Message, Address, MessageCongratulation, BankAccount, Album };

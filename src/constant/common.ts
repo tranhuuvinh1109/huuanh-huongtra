@@ -1,5 +1,5 @@
 import QR_HUU_ANH from "../assets/images/qr-huuanh.jpg";
-import { BankAccountType } from "../type/common";
+import { BankAccountType, ImageType } from "../type/common";
 
 const eventDate = "2025-07-14-11:00";
 
@@ -18,4 +18,16 @@ const bankAccountList: BankAccountType[] = [
   },
 ];
 
-export { eventDate, bankAccountList };
+const imageArray: ImageType[] = [
+  {
+    url: "https://drive.google.com/thumbnail?id=1k32FwA_PXCPKPmFVehA3uMmE70jpPHQI",
+  },
+  {
+    url: "https://drive.google.com/thumbnai?id=1XsJRjZOJFRuKMf9_ESd8y7KnYpcKkHiE",
+  },
+  {
+    url: "https://drive.google.com/thumbnail?id=1k32FwA_PXCPKPmFVehA3uMmE70jpPHQI",
+  },
+];
+
+export { eventDate, bankAccountList, imageArray };

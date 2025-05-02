@@ -11,3 +11,8 @@ export type BankAccountType = {
   bankAccountNumber: string;
   qrImage: string;
 };
+
+export type ImageType = {
+  id?: string;
+  url: string;
+};

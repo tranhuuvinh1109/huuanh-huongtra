@@ -75,7 +75,7 @@ const Address = () => {
       <div className="mt-6 h-0.5 w-full bg-white" />
 
       <div className="p-2">
-        <div className="mt-6 flex rounded-md bg-white p-4">
+        <div className="mt-6 flex flex-col items-center gap-4 rounded-md bg-white p-4 md:flex-row md:gap-0">
           <img src={final} alt="final" className="h-[250px] w-[250px] rounded-md object-cover" />
           <div className="flex flex-1 flex-col items-center justify-center px-4 text-center font-playpen font-semibold">
             <h4 className="mb-4 text-xl">Lễ Thành Hôn</h4>

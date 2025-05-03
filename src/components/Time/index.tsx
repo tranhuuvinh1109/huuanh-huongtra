@@ -1,5 +1,6 @@
 import moment from "moment";
 import { eventDate } from "../../constant/common";
+import { BsHeartFill } from "react-icons/bs";
 
 const Time = () => {
   const dateFormated = moment(eventDate, "YYYY-MM-DD-HH:mm").format("DD - MM - YYYY");
@@ -40,7 +41,14 @@ const Time = () => {
             <li className="w-[12%] rounded-md bg-gray-700 py-1">13</li>
           </ul>
           <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-white md:w-3/5">
-            <li className="w-[12%] rounded-md bg-red-500 py-1">14</li>
+            <li className="relative flex w-[12%] items-center justify-center py-1">
+              <div className="relative h-fit w-fit">
+                <BsHeartFill fontSize={28} fill="#ef4444 " />
+                <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center">
+                  <span className="">14</span>
+                </div>
+              </div>
+            </li>
             <li className="w-[12%] py-1">15</li>
             <li className="w-[12%] py-1">16</li>
             <li className="w-[12%] py-1">17</li>

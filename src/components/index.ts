@@ -7,4 +7,5 @@ import Address from "./Address";
 import MessageCongratulation from "./MessageCongratulation";
 import BankAccount from "./BankAccount";
 import Album from "./Album";
-export { Layout, Container, Poster, Time, Message, Address, MessageCongratulation, BankAccount, Album };
+import VideoIntro from "./VideoIntro";
+export { Layout, Container, Poster, Time, Message, Address, MessageCongratulation, BankAccount, Album, VideoIntro };

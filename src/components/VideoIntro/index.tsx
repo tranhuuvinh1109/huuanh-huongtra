@@ -14,11 +14,9 @@ const VideoIntro = () => {
 
     playVideo();
 
-    document.body.addEventListener("scroll", playVideo);
     document.body.addEventListener("click", playVideo);
 
     return () => {
-      document.body.removeEventListener("scroll", playVideo);
       document.body.removeEventListener("click", playVideo);
     };
   }, []);

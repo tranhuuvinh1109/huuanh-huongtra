@@ -7,6 +7,7 @@ import {
   BankAccount,
   Album,
   VideoIntro,
+  Footer,
 } from "../../components";
 
 const HomePage = () => {
@@ -20,6 +21,7 @@ const HomePage = () => {
       <MessageCongratulation />
       <BankAccount />
       <Album />
+      <Footer />
       <div className="h-24"></div>
     </div>
   );

@@ -99,9 +99,9 @@ const MessageCongratulation = () => {
           </div>
         </form>
       </div>
-      <div className="mb-10 mt-8 max-h-[300px] overflow-y-auto px-6">
+      {/* <div className="mb-10 mt-8 max-h-[300px] overflow-y-auto px-6">
         {messageArray?.map((message) => <MessageCard message={message} key={message.id} />)}
-      </div>
+      </div> */}
     </div>
   );
 };

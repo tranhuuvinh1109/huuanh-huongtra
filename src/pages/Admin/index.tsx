@@ -3,6 +3,16 @@ import { IoClose } from "react-icons/io5";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { FaUpload } from "react-icons/fa6";
 import { uploadImageToFirebase } from "../../provider/Firebase";
+import {
+  Address,
+  Album,
+  BankAccount,
+  Message,
+  MessageCongratulation,
+  Poster,
+  Time,
+  VideoIntro,
+} from "../../components";
 
 const AdminPage = () => {
   const [image, setImage] = useState<File | null>(null);
@@ -60,6 +70,17 @@ const AdminPage = () => {
         <button disabled={isLoading} className="rounded-md bg-white px-6 py-1" onClick={handleAddImage}>
           Add
         </button>
+      </div>
+      <div className="bg-content">
+        <Poster />
+        <VideoIntro />
+        <Time />
+        <Message />
+        <Address />
+        <MessageCongratulation />
+        <BankAccount />
+        <Album />
+        <div className="h-24"></div>
       </div>
     </div>
   );

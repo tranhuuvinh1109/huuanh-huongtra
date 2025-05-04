@@ -8,4 +8,17 @@ import MessageCongratulation from "./MessageCongratulation";
 import BankAccount from "./BankAccount";
 import Album from "./Album";
 import VideoIntro from "./VideoIntro";
-export { Layout, Container, Poster, Time, Message, Address, MessageCongratulation, BankAccount, Album, VideoIntro };
+import Footer from "./Footer";
+export {
+  Layout,
+  Container,
+  Poster,
+  Time,
+  Message,
+  Address,
+  MessageCongratulation,
+  BankAccount,
+  Album,
+  VideoIntro,
+  Footer,
+};

@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
-import { ref, push, onValue } from "firebase/database";
+import { useState } from "react";
+import { ref, push } from "firebase/database";
 import toast from "react-hot-toast";
 import { db } from "../../provider/Firebase";
-import MessageCard from "./components/MessageCard";
+// import MessageCard from "./components/MessageCard";
 import { Message } from "../../type/common";
 
 const MessageCongratulation = () => {
@@ -11,7 +11,7 @@ const MessageCongratulation = () => {
     message: "",
     timestamp: "",
   });
-  const [messageArray, setMessageArray] = useState<Message[]>([]);
+  // const [messageArray, setMessageArray] = useState<Message[]>([]);
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setData({
       ...data,
@@ -44,28 +44,28 @@ const MessageCongratulation = () => {
     }
   };
 
-  useEffect(() => {
-    const databaseRef = ref(db, `messages`);
+  // useEffect(() => {
+  //   const databaseRef = ref(db, `messages`);
 
-    const unsubscribe = onValue(databaseRef, (snapshot) => {
-      const newData: Message[] = [];
+  //   const unsubscribe = onValue(databaseRef, (snapshot) => {
+  //     const newData: Message[] = [];
 
-      snapshot.forEach((childSnapshot) => {
-        newData.push({
-          id: childSnapshot.key,
-          ...childSnapshot.val(),
-        });
-      });
+  //     snapshot.forEach((childSnapshot) => {
+  //       newData.push({
+  //         id: childSnapshot.key,
+  //         ...childSnapshot.val(),
+  //       });
+  //     });
 
-      newData.sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+  //     newData.sort((a, b) => b.timestamp.localeCompare(a.timestamp));
 
-      setMessageArray(newData);
-    });
+  //     setMessageArray(newData);
+  //   });
 
-    return () => {
-      unsubscribe();
-    };
-  }, []);
+  //   return () => {
+  //     unsubscribe();
+  //   };
+  // }, []);
 
   return (
     <div className="m-6 rounded-lg bg-content-primary">

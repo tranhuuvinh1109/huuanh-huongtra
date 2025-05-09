@@ -11,7 +11,7 @@ const Address = () => {
           <img src={HuuAnh} alt="male" className="h-[250px] w-[250px] rounded-md object-cover" />
           <div className="flex flex-1 items-center justify-between">
             <div className="flex flex-1 flex-col items-center justify-center px-4 text-center font-semibold">
-              <h4 className="mb-4 text-xl">TIỆC CƯỚI NHÀ NAM</h4>
+              <h4 className="mb-4 text-xl">TIỆC CƯỚI NHÀ TRAI</h4>
               <h6>11:00 AM 13/07/2025</h6>
               <h6>Thôn Hợp Thuận, Xuân Phổ, Nghi Xuân, Hà Tĩnh</h6>
             </div>
@@ -43,7 +43,7 @@ const Address = () => {
           <img src={HuongTra} alt="female" className="h-[250px] w-[250px] rounded-md object-cover" />
           <div className="flex flex-1 items-center justify-between">
             <div className="flex flex-1 flex-col items-center justify-center px-4 text-center font-semibold">
-              <h4 className="mb-4 text-xl">TIỆC CƯỚI NHÀ NỮ</h4>
+              <h4 className="mb-4 text-xl">TIỆC CƯỚI NHÀ GÁI</h4>
               <h6>11:00 AM 13/07/2025</h6>
               <h6>Thôn Lam Long, Xuân Hải, Nghi Xuân, Hà Tĩnh</h6>
             </div>

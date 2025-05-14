@@ -1,4 +1,5 @@
 import QR_HUU_ANH from "../assets/images/qr-huuanh.jpg";
+import QR_TRA from "../assets/images/qr-tra.jpg";
 import img1 from "../assets/images/img1.jpg";
 import img2 from "../assets/images/img2.jpg";
 import img3 from "../assets/images/img3.jpg";
@@ -15,10 +16,10 @@ const bankAccountList: BankAccountType[] = [
     qrImage: QR_HUU_ANH,
   },
   {
-    bankName: "MB Bank",
+    bankName: "VietinBank",
     bankAccountName: "TRAN THI HUONG TRA",
-    bankAccountNumber: "1234567890",
-    qrImage: QR_HUU_ANH,
+    bankAccountNumber: "0817014416",
+    qrImage: QR_TRA,
   },
 ];
 

@@ -9,6 +9,7 @@ import BankAccount from "./BankAccount";
 import Album from "./Album";
 import VideoIntro from "./VideoIntro";
 import Footer from "./Footer";
+import MusicPlayer from "./MusicPlayer";
 export {
   Layout,
   Container,
@@ -21,4 +22,5 @@ export {
   Album,
   VideoIntro,
   Footer,
+  MusicPlayer,
 };

@@ -6,15 +6,14 @@ import {
   MessageCongratulation,
   BankAccount,
   Album,
-  VideoIntro,
   Footer,
+  MusicPlayer,
 } from "../../components";
 
 const HomePage = () => {
   return (
     <div className="bg-content">
       <Poster />
-      <VideoIntro />
       <Time />
       <Message />
       <Address />
@@ -22,6 +21,7 @@ const HomePage = () => {
       <BankAccount />
       <Album />
       <Footer />
+      <MusicPlayer />
       <div className="h-24"></div>
     </div>
   );

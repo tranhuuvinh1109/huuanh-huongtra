@@ -68,40 +68,46 @@ const MessageCongratulation = () => {
   // }, []);
 
   return (
-    <div className="m-6 rounded-lg bg-content-primary">
-      <div className="p-6">
-        <form onSubmit={handleSubmit} method="post">
-          <div>
-            <input
-              type="text"
-              placeholder="Tên của bạn *"
-              className="mb-4 w-full rounded-md px-4 py-2"
-              value={data.username}
-              name="username"
-              onChange={handleChange}
-            />
-            <textarea
-              rows={4}
-              placeholder="Nhập lời chúc *"
-              className="w-full rounded-md px-4 py-2"
-              value={data.message}
-              name="message"
-              onChange={handleChange}
-            />
-            <div className="mt-6 flex items-center justify-center">
-              <button
-                type="submit"
-                className="rounded-md bg-content px-8 py-2 font-semibold text-white hover:bg-content-supper"
-              >
-                Gửi lời chúc
-              </button>
+    <div className="flex justify-center">
+      <div className="m-6 rounded-lg bg-content-primary md:w-1/3">
+        <div className="p-6 ">
+          <form onSubmit={handleSubmit} method="post">
+            <h1 className="text-center text-2xl ">Sổ lưu bút</h1>
+            <h1 className="my-6 text-center text-lg">
+              Cảm ơn bạn rất nhiều vì đã gửi những lời chúc mừng tốt đẹp nhất đến đám cưới của chúng tôi !
+            </h1>
+            <div>
+              <input
+                type="text"
+                placeholder="Tên của bạn *"
+                className="mb-4 w-full rounded-md px-4 py-2"
+                value={data.username}
+                name="username"
+                onChange={handleChange}
+              />
+              <textarea
+                rows={4}
+                placeholder="Nhập lời chúc *"
+                className="w-full rounded-md px-4 py-2"
+                value={data.message}
+                name="message"
+                onChange={handleChange}
+              />
+              <div className="mt-6 flex items-center justify-center">
+                <button
+                  type="submit"
+                  className="rounded-md bg-content px-8 py-2 font-semibold text-white hover:bg-content-supper"
+                >
+                  Gửi lời chúc
+                </button>
+              </div>
             </div>
-          </div>
-        </form>
-      </div>
-      {/* <div className="mb-10 mt-8 max-h-[300px] overflow-y-auto px-6">
+          </form>
+        </div>
+        {/* <div className="mb-10 mt-8 max-h-[300px] overflow-y-auto px-6">
         {messageArray?.map((message) => <MessageCard message={message} key={message.id} />)}
       </div> */}
+      </div>
     </div>
   );
 };

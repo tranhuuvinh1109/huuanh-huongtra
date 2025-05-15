@@ -16,3 +16,24 @@ export type ImageType = {
   id?: string;
   url: string;
 };
+
+export type EventType = {
+  nameEvent: string;
+  time: string;
+  location: string;
+  urlMap: string;
+  calendar: CalendarItemType;
+  img: string;
+};
+
+export type CalendarItemType = {
+  name: string;
+  startDate: string;
+  startTime: string;
+  endDate: string;
+  endTime: string;
+  timeZone: string;
+  label: string;
+  language: string;
+  description: string;
+};

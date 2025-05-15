@@ -2,6 +2,8 @@ import moment from "moment";
 import { eventDate } from "../../constant/common";
 import { BsHeartFill } from "react-icons/bs";
 
+import { AddToCalendarButton } from "add-to-calendar-button-react";
+
 const Time = () => {
   const dateFormated = moment(eventDate, "YYYY-MM-DD-HH:mm").format("DD - MM - YYYY");
   return (
@@ -93,6 +95,20 @@ const Time = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="my-10 flex justify-center">
+        <AddToCalendarButton
+          name="Đám cưới Hữu Anh & Hương Trà"
+          startDate="2025-07-14"
+          startTime="10:00"
+          endDate="2025-07-14"
+          endTime="12:00"
+          options={["Apple", "Google", "Yahoo", "iCal"]}
+          timeZone="Asia/Ho_Chi_Minh"
+          label="Thêm vào lịch"
+          language="vi"
+          description="Gửi những người bạn thân yêu của tôi! Tôi biết các bạn rất bận rộn, bận rộn với công việc, gia đình, cuộc sống … Nhưng tôi hi vọng các bạn sẽ có mặt để chúc mừng tình yêu và hạnh phúc của chúng tôi. Một lần nữa chân thành cảm ơn tất cả các bạn."
+        ></AddToCalendarButton>
       </div>
     </div>
   );

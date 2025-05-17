@@ -8,11 +8,13 @@ import {
   Album,
   Footer,
   MusicPlayer,
+  FloatingHeart,
 } from "../../components";
 
 const HomePage = () => {
   return (
-    <div className="bg-content">
+    <div className="relative bg-content">
+      <FloatingHeart />
       <Poster />
       <Time />
       <Message />

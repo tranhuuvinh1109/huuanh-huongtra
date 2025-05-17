@@ -99,6 +99,7 @@ export default {
         wave: "wave 1s ease-in-out infinite",
         messageShow: "messageShow 1s ease-in-out",
         messageHidden: "messageHidden 1s ease-in-out",
+        "spin-slow": "spin 30s linear infinite",
       },
     },
   },

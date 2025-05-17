@@ -1,5 +1,6 @@
 import { AddToCalendarButton } from "add-to-calendar-button-react";
 import final from "../../assets/images/final.png";
+import bg from "../../assets/images/bg_couple.png";
 import { events } from "../../constant/common";
 
 const Address = () => {
@@ -12,7 +13,12 @@ const Address = () => {
           return (
             <div key={index} className="flex flex-col items-center rounded-md bg-white p-6">
               <div className="flex flex-col items-center">
-                <img src={item.img} className="w-full max-w-[400px] rounded-md object-cover" />
+                <div className="relative w-full max-w-[400px] ">
+                  <div className=" absolute bottom-0 left-0 right-0 top-0">
+                    <img src={bg} className="animate-spin-slow w-full " />
+                  </div>
+                  <img src={item.img} className="w-full rounded-full object-cover p-6" />
+                </div>
                 <h1 className="mb-4 mt-6 text-2xl ">{item.nameEvent}</h1>
                 <h1 className="mb-4 text-xl font-semibold">{item.time}</h1>
                 <h1 className="mb-4 text-base">{item.location}</h1>

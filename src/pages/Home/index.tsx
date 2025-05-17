@@ -14,15 +14,15 @@ import {
 
 const HomePage = () => {
   return (
-    <div className="relative bg-content">
+    <div className="relative bg-content ">
       <FloatingHeart />
       <Poster />
       <Time />
       <Message />
       <Address />
-      <MessageCongratulation />
       <BankAccount />
       <Album />
+      <MessageCongratulation />
       <Invite />
       <Footer />
       <MusicPlayer />

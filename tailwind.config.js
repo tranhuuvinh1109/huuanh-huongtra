@@ -10,9 +10,10 @@ export default {
         overlay80: "rgba(0,0,0, 0.8)",
         overlay60: "rgba(0,0,0, 0.6)",
         borderPrimary: "#2C2B2C",
-        content: "#a6aead",
+        content: "#ffe3f4",
         "content-primary": "#dbe3e2",
         "content-supper": "#727b7a",
+        "grow-custom": "#7b3e24",
       },
       fontFamily: {
         montserrat: ["Montserrat Alternates", "sans-serif"],

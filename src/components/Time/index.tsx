@@ -15,7 +15,7 @@ const Time = () => {
 
       <div>
         <div className="mt-4 px-4 md:px-0">
-          <ul className="border-top mx-auto flex  justify-around border-y py-2 font-semibold text-white md:w-3/5">
+          <ul className="border-top border-grow-custom text-grow-custom mx-auto  flex justify-around border-y py-2 font-semibold md:w-3/5">
             <li className="w-[12%] py-1">Thứ 2</li>
             <li className="w-[12%] py-1">Thứ 3</li>
             <li className="w-[12%] py-1">Thứ 4</li>
@@ -24,7 +24,7 @@ const Time = () => {
             <li className="w-[12%] py-1">Thứ 7</li>
             <li className="w-[12%] py-1">CN</li>
           </ul>
-          <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-white md:w-3/5">
+          <ul className="border-top text-grow-custom mx-auto  flex justify-around py-2 font-semibold md:w-3/5">
             <li className="w-[12%] py-1"></li>
             <li className="w-[12%] py-1">1</li>
             <li className="w-[12%] py-1">2</li>
@@ -33,21 +33,21 @@ const Time = () => {
             <li className="w-[12%] py-1">5</li>
             <li className="w-[12%] py-1">6</li>
           </ul>
-          <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-white md:w-3/5">
+          <ul className="border-top text-grow-custom mx-auto  flex justify-around py-2 font-semibold md:w-3/5">
             <li className="w-[12%] py-1">7</li>
             <li className="w-[12%] py-1">8</li>
             <li className="w-[12%] py-1">9</li>
             <li className="w-[12%] py-1">10</li>
             <li className="w-[12%] py-1">11</li>
             <li className="w-[12%] py-1">12</li>
-            <li className="w-[12%] rounded-md bg-gray-700 py-1">13</li>
+            <li className="w-[12%] rounded-md bg-gray-700 py-1 text-white">13</li>
           </ul>
-          <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-white md:w-3/5">
+          <ul className="border-top text-grow-custom mx-auto  flex justify-around py-2 font-semibold md:w-3/5">
             <li className="relative flex w-[12%] items-center justify-center py-1">
               <div className="relative h-fit w-fit">
                 <BsHeartFill fontSize={28} fill="#ef4444 " />
                 <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center">
-                  <span className="">14</span>
+                  <span className="text-white">14</span>
                 </div>
               </div>
             </li>
@@ -58,7 +58,7 @@ const Time = () => {
             <li className="w-[12%] py-1">19</li>
             <li className="w-[12%] py-1">20</li>
           </ul>
-          <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-white md:w-3/5">
+          <ul className="border-top text-grow-custom mx-auto  flex justify-around py-2 font-semibold md:w-3/5">
             <li className="w-[12%] py-1">21</li>
             <li className="w-[12%] py-1">22</li>
             <li className="w-[12%] py-1">23</li>
@@ -67,7 +67,7 @@ const Time = () => {
             <li className="w-[12%] py-1">26</li>
             <li className="w-[12%] py-1 ">27</li>
           </ul>
-          <ul className="border-top mx-auto flex  justify-around border-b py-2 font-semibold text-white md:w-3/5">
+          <ul className="border-top text-grow-custom mx-auto  flex justify-around border-b py-2 font-semibold md:w-3/5">
             <li className="w-[12%] py-1">28</li>
             <li className="w-[12%] py-1">29</li>
             <li className="w-[12%] py-1">30</li>
@@ -82,7 +82,7 @@ const Time = () => {
                 <span className="font-semibold text-white">13</span>
               </div>
               <div>
-                <span className="font-semibold text-white">Lễ Vu Quy</span>
+                <span className="text-grow-custom font-semibold">Lễ Vu Quy</span>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -90,7 +90,7 @@ const Time = () => {
                 <span className="font-semibold text-white">14</span>
               </div>
               <div>
-                <span className="font-semibold text-white">Lễ Thành Hôn</span>
+                <span className="text-grow-custom font-semibold">Lễ Thành Hôn</span>
               </div>
             </div>
           </div>

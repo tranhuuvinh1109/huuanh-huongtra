@@ -221,3 +221,112 @@
     opacity: 0;
   }
 }
+
+.wing {
+  background: white;
+  border-radius: 12px 20px 60px 20px;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.right {
+  animation: flap1 1s infinite;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px 20px 60px 20px;
+  transform: rotate(-10deg) translate(250px, 0);
+}
+@keyframes flap1 {
+  0% {
+    transform: rotate(-10deg) translate(250px, 0);
+  }
+
+  50% {
+    transform: rotate(-5deg) translate(250px, 0);
+  }
+}
+.right:before {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 70%;
+  height: 70%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+  border-radius: 20px 20px 60px 20px;
+  transform: rotate(20deg) translate(-1px, 0);
+  margin-top: 38px;
+}
+
+.right:after {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 40%;
+  transform: rotate(29deg) translate(-8px, 0);
+  height: 30%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 60px 70px;
+  margin-top: 66px;
+}
+
+/* left wing */
+
+.left {
+  border-radius: 12px 20px 20px 60px;
+  animation: flap2 1s infinite;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+  transform: rotate(10deg) translate(-248px, 0);
+}
+
+@keyframes flap2 {
+  0% {
+    transform: rotate(10deg) translate(-248px, 0);
+  }
+
+  50% {
+    transform: rotate(5deg) translate(-248px, 0);
+  }
+}
+
+.left:before {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 70%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+  transform: translate(46%, 0) rotate(-20deg);
+  height: 60%;
+  border-radius: 12px 20px 70px 70px;
+  margin-top: 40px;
+}
+
+.left:after {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 40%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+  height: 30%;
+  transform: translate(164%, 0) rotate(-34deg);
+  border-radius: 0px 0px 70px 60px;
+  margin-top: 58px;
+}
+
+#envelope {
+  background: white;
+  position: relative;
+  /* width: 320px; */
+  /* height: 200px; */
+  border-radius: 8px;
+  /* overflow: hidden; */
+  animation: floaty 1s infinite;
+}
+
+@keyframes floaty {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 12px);
+  }
+}

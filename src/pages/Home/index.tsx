@@ -9,6 +9,7 @@ import {
   Footer,
   MusicPlayer,
   FloatingHeart,
+  Invite,
 } from "../../components";
 
 const HomePage = () => {
@@ -22,6 +23,7 @@ const HomePage = () => {
       <MessageCongratulation />
       <BankAccount />
       <Album />
+      <Invite />
       <Footer />
       <MusicPlayer />
       <div className="h-24"></div>

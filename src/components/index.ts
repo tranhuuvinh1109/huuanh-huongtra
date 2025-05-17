@@ -11,6 +11,7 @@ import VideoIntro from "./VideoIntro";
 import Footer from "./Footer";
 import MusicPlayer from "./MusicPlayer";
 import FloatingHeart from "./FloatingHeart";
+import Invite from "./Intivve";
 
 export {
   Layout,
@@ -26,4 +27,5 @@ export {
   Footer,
   MusicPlayer,
   FloatingHeart,
+  Invite,
 };

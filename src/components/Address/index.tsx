@@ -5,7 +5,7 @@ import { events } from "../../constant/common";
 const Address = () => {
   return (
     <div className="mx-auto mt-10 font-montserrat md:max-w-[1000px] ">
-      <h1 className="mb-6 text-center font-playpen text-3xl font-semibold text-white">Sự Kiện</h1>
+      <h1 className="mb-6 text-center font-playpen text-3xl font-semibold text-grow-custom">Sự Kiện</h1>
 
       <div className="flex flex-col justify-between gap-4  p-2 md:flex-row">
         {events.map((item, index) => {

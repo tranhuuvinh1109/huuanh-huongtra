@@ -1,15 +1,16 @@
 const Footer = () => {
   return (
-    <div className="mt-10 flex justify-center px-6 text-white">
-      <div className="w-2/3 text-center md:w-1/2">
-        <h1 className="text-2xl font-bold ">💌 Lời Cảm Ơn Chân Thành</h1>
-        <p className="mt-6">
+    <div className="mt-24 px-6 pb-[100px] md:px-24">
+      <div className="text-left md:text-center">
+        <p className="mt-10 text-base md:text-xl">
           Chúng tôi xin gửi lời cảm ơn sâu sắc đến quý khách đã dành thời gian quý báu để chia vui cùng gia đình chúng
           tôi trong ngày trọng đại.
         </p>
-        <p>Sự hiện diện và lời chúc phúc của quý vị là niềm vinh hạnh và là món quà quý giá nhất đối với chúng tôi.</p>
+        <p className="mt-1 text-base md:text-xl">
+          Sự hiện diện và lời chúc phúc của quý vị là niềm vinh hạnh và là món quà quý giá nhất đối với chúng tôi.
+        </p>
 
-        <h5>Trân trọng,</h5>
+        <h5 className="mt-4 text-xl md:text-3xl">Trân trọng,</h5>
         <h4 className="mt-10 text-center text-2xl font-semibold">Hữu Anh & Hương Trà</h4>
       </div>
     </div>

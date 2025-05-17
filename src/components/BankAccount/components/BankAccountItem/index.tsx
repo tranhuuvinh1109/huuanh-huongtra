@@ -30,9 +30,9 @@ const BankAccountItem = ({ bankAccountData }: BankAccountItemProps) => {
         <h1>{bankName}</h1>
         <h1>{bankAccountName}</h1>
         <div className="relative flex items-center justify-between rounded-lg bg-content">
-          <h1 className="flex-1 px-4 py-2 text-lg font-medium text-white">{bankAccountNumber}</h1>
+          <h1 className="flex-1 px-4 py-2 text-lg font-medium text-grow-custom">{bankAccountNumber}</h1>
           <div className="absolute right-0 top-0 h-full p-1">
-            <button onClick={handleClickCopy} className="h-full rounded-lg bg-white px-3 hover:bg-gray-300">
+            <button onClick={handleClickCopy} className="h-full rounded-lg bg-white px-3 hover:bg-pink-300">
               <FiCopy />
             </button>
           </div>
@@ -42,7 +42,7 @@ const BankAccountItem = ({ bankAccountData }: BankAccountItemProps) => {
         <img src={qrImage} alt="qr" className="mb-4 w-16 rounded-md md:w-48" />
         <button
           onClick={handleDownload}
-          className="flex w-full justify-center rounded-lg bg-content py-1 text-white hover:bg-gray-700"
+          className="flex w-full justify-center rounded-lg bg-content py-1 text-grow-custom hover:bg-pink-400"
         >
           <MdSaveAlt fontSize={20} />
         </button>

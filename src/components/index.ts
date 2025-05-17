@@ -10,6 +10,9 @@ import Album from "./Album";
 import VideoIntro from "./VideoIntro";
 import Footer from "./Footer";
 import MusicPlayer from "./MusicPlayer";
+import FloatingHeart from "./FloatingHeart";
+import Invite from "./Intivve";
+
 export {
   Layout,
   Container,
@@ -23,4 +26,6 @@ export {
   VideoIntro,
   Footer,
   MusicPlayer,
+  FloatingHeart,
+  Invite,
 };

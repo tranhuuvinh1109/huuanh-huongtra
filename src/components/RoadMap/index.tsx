@@ -5,13 +5,13 @@ import { GrMapLocation } from "react-icons/gr";
 
 const RoadMap = () => {
   return (
-    <div className="my-12 flex justify-center">
+    <div className="my-12 flex  pl-10 lg:justify-center lg:pl-0">
       <div className="relative h-[700px] w-1 bg-grow-custom">
         <>
           <div className="absolute  left-[-12px]  top-4  h-6  w-6 translate-x-[2px] rounded-full  bg-grow-custom"></div>
-          <div className="absolute right-full  top-4 pr-10">
-            <div className="flex gap-4 rounded-md bg-white p-4">
-              <div className="relative w-[300px]  ">
+          <div className=" absolute left-full  top-4 pl-6 pr-0 lg:right-full lg:pr-10">
+            <div className="flex w-[280px] flex-col gap-4 rounded-md bg-white p-4 md:flex-row">
+              <div className="relative w-[200px] md:w-[300px] ">
                 <div className=" absolute bottom-0 left-0 right-0 top-0">
                   <img src={bg} className="w-full animate-spin-slow " />
                 </div>
@@ -44,7 +44,7 @@ const RoadMap = () => {
             </div>
           </div>
         </>
-        <>
+        {/* <>
           <div className="absolute  left-[-12px]  top-[360px]  h-6  w-6 translate-x-[2px] rounded-full  bg-grow-custom"></div>
           <div className="absolute left-full  top-[360px] pl-10">
             <div className="flex gap-4 rounded-md bg-white p-4">
@@ -80,7 +80,7 @@ const RoadMap = () => {
               </div>
             </div>
           </div>
-        </>
+        </> */}
       </div>
     </div>
   );

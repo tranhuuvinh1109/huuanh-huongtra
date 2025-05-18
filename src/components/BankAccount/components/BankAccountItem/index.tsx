@@ -2,13 +2,17 @@ import { BankAccountType } from "../../../../type/common";
 import { FiCopy } from "react-icons/fi";
 import { toast } from "react-hot-toast";
 import { MdSaveAlt } from "react-icons/md";
+import { RiFullscreenLine } from "react-icons/ri";
+import { useState } from "react";
 
 type BankAccountItemProps = {
   bankAccountData: BankAccountType;
+  onSelect: (item: BankAccountType) => void;
 };
 
-const BankAccountItem = ({ bankAccountData }: BankAccountItemProps) => {
+const BankAccountItem = ({ bankAccountData, onSelect }: BankAccountItemProps) => {
   const { bankName, bankAccountName, bankAccountNumber, qrImage } = bankAccountData;
+  const [isHovering, setIsHovering] = useState(false);
 
   const handleClickCopy = () => {
     navigator.clipboard.writeText(bankAccountNumber);
@@ -39,10 +43,29 @@ const BankAccountItem = ({ bankAccountData }: BankAccountItemProps) => {
         </div>
       </div>
       <div>
-        <img src={qrImage} alt="qr" className="mb-4 w-16 rounded-md md:w-48" />
+        <div
+          className="relative overflow-hidden rounded-md hover:cursor-pointer"
+          onClick={() => {
+            onSelect(bankAccountData);
+          }}
+          onMouseEnter={() => setIsHovering(true)}
+          onMouseLeave={() => setIsHovering(false)}
+        >
+          <img src={qrImage} alt="qr" className="mb-4 w-16  md:w-48" />
+          {isHovering && (
+            <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center bg-black/70 text-white">
+              <div className="block md:hidden">
+                <RiFullscreenLine fontSize={24} />
+              </div>
+              <div className="hidden md:block">
+                <RiFullscreenLine fontSize={48} />
+              </div>
+            </div>
+          )}
+        </div>
         <button
           onClick={handleDownload}
-          className="flex w-full justify-center rounded-lg bg-content py-1 text-grow-custom hover:bg-pink-400"
+          className="mt-2 flex w-full justify-center rounded-lg bg-content py-1 text-grow-custom hover:bg-pink-400"
         >
           <MdSaveAlt fontSize={20} />
         </button>

@@ -12,6 +12,7 @@ import Footer from "./Footer";
 import MusicPlayer from "./MusicPlayer";
 import FloatingHeart from "./FloatingHeart";
 import Invite from "./Intivve";
+import Modal from "./Modal";
 
 export {
   Layout,
@@ -28,4 +29,5 @@ export {
   MusicPlayer,
   FloatingHeart,
   Invite,
+  Modal,
 };

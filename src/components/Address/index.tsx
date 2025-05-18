@@ -15,7 +15,7 @@ const Address = () => {
               <div className="flex flex-col items-center">
                 <div className="relative w-full max-w-[400px] ">
                   <div className=" absolute bottom-0 left-0 right-0 top-0">
-                    <img src={bg} className="animate-spin-slow w-full " />
+                    <img src={bg} className="w-full animate-spin-slow " />
                   </div>
                   <img src={item.img} className="w-full rounded-full object-cover p-6" />
                 </div>

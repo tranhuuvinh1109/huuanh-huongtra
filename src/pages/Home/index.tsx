@@ -2,12 +2,11 @@ import {
   Message,
   Poster,
   Time,
-  Address,
   MessageCongratulation,
   BankAccount,
   Album,
   Footer,
-  MusicPlayer,
+  // MusicPlayer,
   FloatingHeart,
   Invite,
   RoadMap,
@@ -19,15 +18,14 @@ const HomePage = () => {
       <FloatingHeart />
       <Poster />
       <Time />
-      <Message />
-      <Address />
-      <BankAccount />
       <RoadMap />
+      <Message />
+      <BankAccount />
       <Album />
       <MessageCongratulation />
       <Invite />
       <Footer />
-      <MusicPlayer />
+      {/* <MusicPlayer /> */}
       <div className="h-24"></div>
     </div>
   );

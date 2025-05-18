@@ -7,10 +7,10 @@ import { forwardRef } from "react";
 type RoadMapItemProps = {
   item: EventType;
   classNameContent?: string;
-  onClickOpenMap: (url: string) => void;
+  onClickOpenMap?: (url: string) => void;
 };
 const RoadMapItem = forwardRef<HTMLDivElement, RoadMapItemProps>((props, ref) => {
-  const { item, classNameContent, onClickOpenMap } = props;
+  const { item, classNameContent } = props;
 
   return (
     <div className={`flex-1 ${classNameContent}`} ref={ref}>
@@ -28,14 +28,13 @@ const RoadMapItem = forwardRef<HTMLDivElement, RoadMapItemProps>((props, ref) =>
             <h2>{item.location}</h2>
           </div>
           <div className="mt-6 flex flex-col items-end gap-2">
-            <button
+            <a
+              href={item.externalMap}
+              target="_blank"
               className="flex items-center gap-2 rounded-full border border-pink-400 px-6 py-2 text-pink-400 hover:border-pink-600 hover:text-pink-600"
-              onClick={() => {
-                onClickOpenMap(item.urlMap);
-              }}
             >
               <GrMapLocation fontSize={28} /> <span className="font-semibold">Xem bản đồ</span>
-            </button>
+            </a>
             <AddToCalendarButton
               name={item.calendar.name}
               startDate={item.calendar.startDate}

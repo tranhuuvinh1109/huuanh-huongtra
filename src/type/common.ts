@@ -22,6 +22,7 @@ export type EventType = {
   time: string;
   location: string;
   urlMap: string;
+  externalMap: string;
   calendar: CalendarItemType;
   img: string;
 };

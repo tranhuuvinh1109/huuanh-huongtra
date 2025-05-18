@@ -20,7 +20,7 @@ const bankAccountList: BankAccountType[] = [
   {
     bankName: "VietinBank",
     bankAccountName: "TRAN THI HUONG TRA",
-    bankAccountNumber: "0817014416",
+    bankAccountNumber: "106878503818",
     qrImage: QR_TRA,
   },
 ];

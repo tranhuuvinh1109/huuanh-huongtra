@@ -13,6 +13,7 @@ import MusicPlayer from "./MusicPlayer";
 import FloatingHeart from "./FloatingHeart";
 import Invite from "./Intivve";
 import Modal from "./Modal";
+import RoadMap from "./RoadMap";
 
 export {
   Layout,
@@ -30,4 +31,5 @@ export {
   FloatingHeart,
   Invite,
   Modal,
+  RoadMap,
 };

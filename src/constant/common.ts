@@ -40,7 +40,7 @@ const imageArray: ImageType[] = [
 const events: EventType[] = [
   {
     nameEvent: "🎉TIỆC CƯỚI NHÀ GÁI",
-    time: "11:00 AM 13/07/2025",
+    time: "11:00 - 13/07/2025",
     location: "Thôn Lam Long, Xuân Hải, Nghi Xuân, Hà Tĩnh",
     img: HuongTra,
     urlMap:
@@ -59,7 +59,7 @@ const events: EventType[] = [
   },
   {
     nameEvent: "🎉TIỆC CƯỚI NHÀ TRAI",
-    time: "10:00 AM 14/07/2025",
+    time: "10:00 - 14/07/2025",
     location: "Thôn Hợp Thuận, Xuân Phổ, Nghi Xuân, Hà Tĩnh",
     img: HuuAnh,
     urlMap:

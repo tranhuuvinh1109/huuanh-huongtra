@@ -10,6 +10,7 @@ import {
   MusicPlayer,
   FloatingHeart,
   Invite,
+  RoadMap,
 } from "../../components";
 
 const HomePage = () => {
@@ -21,6 +22,7 @@ const HomePage = () => {
       <Message />
       <Address />
       <BankAccount />
+      <RoadMap />
       <Album />
       <MessageCongratulation />
       <Invite />

@@ -53,7 +53,7 @@ const BankAccountItem = ({ bankAccountData, onSelect }: BankAccountItemProps) =>
         >
           <img src={qrImage} alt="qr" className="mb-4 w-16  md:w-48" />
           {isHovering && (
-            <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center bg-black/70 text-white">
+            <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center bg-black/60 text-white">
               <div className="block md:hidden">
                 <RiFullscreenLine fontSize={24} />
               </div>

@@ -6,7 +6,7 @@ import {
   BankAccount,
   Album,
   Footer,
-  // MusicPlayer,
+  MusicPlayer,
   FloatingHeart,
   Invite,
   RoadMap,
@@ -25,7 +25,7 @@ const HomePage = () => {
       <MessageCongratulation />
       <Invite />
       <Footer />
-      {/* <MusicPlayer /> */}
+      <MusicPlayer />
       <div className="h-24"></div>
     </div>
   );

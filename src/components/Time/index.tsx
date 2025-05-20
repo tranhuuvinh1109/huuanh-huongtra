@@ -16,78 +16,91 @@ const Time = () => {
       <div>
         <div className="mt-4 px-4 md:px-0">
           <ul className="border-top mx-auto flex justify-around  border-y border-grow-custom py-2 font-semibold text-grow-custom md:w-3/5">
-            <li className="w-[12%] py-1">Thứ 2</li>
-            <li className="w-[12%] py-1">Thứ 3</li>
-            <li className="w-[12%] py-1">Thứ 4</li>
-            <li className="w-[12%] py-1">Thứ 5</li>
-            <li className="w-[12%] py-1">Thứ 6</li>
-            <li className="w-[12%] py-1">Thứ 7</li>
-            <li className="w-[12%] py-1">CN</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">Thứ 2</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">Thứ 3</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">Thứ 4</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">Thứ 5</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">Thứ 6</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">Thứ 7</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">CN</li>
           </ul>
           <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-grow-custom md:w-3/5">
-            <li className="w-[12%] py-1"></li>
-            <li className="w-[12%] py-1">1</li>
-            <li className="w-[12%] py-1">2</li>
-            <li className="w-[12%] py-1">3</li>
-            <li className="w-[12%] py-1">4</li>
-            <li className="w-[12%] py-1">5</li>
-            <li className="w-[12%] py-1">6</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1"></li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">1</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">2</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">3</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">4</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">5</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">6</li>
           </ul>
           <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-grow-custom md:w-3/5">
-            <li className="w-[12%] py-1">7</li>
-            <li className="w-[12%] py-1">8</li>
-            <li className="w-[12%] py-1">9</li>
-            <li className="w-[12%] py-1">10</li>
-            <li className="w-[12%] py-1">11</li>
-            <li className="w-[12%] py-1">12</li>
-            <li className="w-[12%] cursor-pointer rounded-md bg-gray-700 py-1 text-white hover:scale-150">13</li>
-          </ul>
-          <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-grow-custom md:w-3/5">
-            <li className="relative flex w-[12%] items-center justify-center py-1">
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">7</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">8</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">9</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">10</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">11</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">12</li>
+            <li className="relative flex h-[42px] w-[12%]  items-center justify-center py-1">
               <div className="relative h-fit w-fit cursor-pointer hover:scale-150">
-                <BsHeartFill fontSize={28} fill="#ef4444 " />
+                <BsHeartFill fontSize={40} fill="#7b3e24" />
+                <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center">
+                  <span className="text-white">13</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-grow-custom md:w-3/5">
+            <li className="relative flex h-[42px] w-[12%]  items-center justify-center py-1">
+              <div className="relative h-fit w-fit cursor-pointer hover:scale-150">
+                <BsHeartFill fontSize={40} fill="#ef4444" />
                 <div className="absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center">
                   <span className="text-white">14</span>
                 </div>
               </div>
             </li>
-            <li className="w-[12%] py-1">15</li>
-            <li className="w-[12%] py-1">16</li>
-            <li className="w-[12%] py-1">17</li>
-            <li className="w-[12%] py-1">18</li>
-            <li className="w-[12%] py-1">19</li>
-            <li className="w-[12%] py-1">20</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">15</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">16</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">17</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">18</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">19</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">20</li>
           </ul>
           <ul className="border-top mx-auto flex  justify-around py-2 font-semibold text-grow-custom md:w-3/5">
-            <li className="w-[12%] py-1">21</li>
-            <li className="w-[12%] py-1">22</li>
-            <li className="w-[12%] py-1">23</li>
-            <li className="w-[12%] py-1">24</li>
-            <li className="w-[12%] py-1">25</li>
-            <li className="w-[12%] py-1">26</li>
-            <li className="w-[12%] py-1 ">27</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">21</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">22</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">23</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">24</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">25</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">26</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1 ">27</li>
           </ul>
           <ul className="border-top mx-auto flex  justify-around border-b py-2 font-semibold text-grow-custom md:w-3/5">
-            <li className="w-[12%] py-1">28</li>
-            <li className="w-[12%] py-1">29</li>
-            <li className="w-[12%] py-1">30</li>
-            <li className="w-[12%] py-1">31</li>
-            <li className="w-[12%] py-1"></li>
-            <li className="w-[12%] py-1"></li>
-            <li className="w-[12%] py-1"></li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">28</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">29</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">30</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1">31</li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1"></li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1"></li>
+            <li className="flex h-[42px] w-[12%] items-center justify-center py-1"></li>
           </ul>
           <div className="mt-4 flex items-center justify-center  gap-6">
             <div className="flex items-center gap-2">
-              <div className=" w-fit rounded-md bg-gray-700 px-4 py-1.5">
-                <span className="font-semibold text-white">13</span>
+              <div className=" relative w-fit rounded-md ">
+                <BsHeartFill fontSize={40} fill="#7b3e24" />
+                <div className=" absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center">
+                  <span className="font-semibold text-white">13</span>
+                </div>
               </div>
               <div>
                 <span className="font-semibold text-grow-custom">Lễ Vu Quy</span>
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <div className=" w-fit rounded-md bg-red-500 px-4 py-1.5">
-                <span className="font-semibold text-white">14</span>
+              <div className=" relative w-fit rounded-md ">
+                <BsHeartFill fontSize={40} fill="#ef4444" />
+                <div className=" absolute bottom-0 left-0 right-0 top-0 flex items-center justify-center">
+                  <span className="font-semibold text-white">14</span>
+                </div>
               </div>
               <div>
                 <span className="font-semibold text-grow-custom">Lễ Thành Hôn</span>

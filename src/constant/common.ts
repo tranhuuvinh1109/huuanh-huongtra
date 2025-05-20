@@ -40,7 +40,7 @@ const imageArray: ImageType[] = [
 const events: EventType[] = [
   {
     nameEvent: "🎉LỄ VU QUY",
-    time: "11:00 - 13/07/2025",
+    time: "10:30 - 13/07/2025",
     location: "Thôn Lam Long, Xuân Hải, Nghi Xuân, Hà Tĩnh",
     img: HuongTra,
     urlMap:
@@ -49,7 +49,7 @@ const events: EventType[] = [
     calendar: {
       name: "🎉TIỆC CƯỚI Hương Trà",
       startDate: "2025-07-13",
-      startTime: "11:00",
+      startTime: "10:30",
       endDate: "2025-07-13",
       endTime: "12:00",
       timeZone: "Asia/Ho_Chi_Minh",

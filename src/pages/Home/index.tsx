@@ -20,9 +20,9 @@ const HomePage = () => {
       <Time />
       <RoadMap />
       <Message />
+      <MessageCongratulation />
       <BankAccount />
       <Album />
-      <MessageCongratulation />
       <Invite />
       <Footer />
       <MusicPlayer />

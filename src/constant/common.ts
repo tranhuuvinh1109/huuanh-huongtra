@@ -1,5 +1,5 @@
 import QR_HUU_ANH from "../assets/images/qr-anh.png";
-import QR_TRA from "../assets/images/qr-tra.jpg";
+import QR_TRA from "../assets/images/qr-tra.png";
 import img1 from "../assets/images/img1.jpg";
 import img2 from "../assets/images/img2.jpg";
 import img3 from "../assets/images/img3.jpg";
@@ -40,7 +40,7 @@ const imageArray: ImageType[] = [
 const events: EventType[] = [
   {
     nameEvent: "🎉LỄ VU QUY",
-    time: "10:30 - 13/07/2025",
+    time: "17:00 - 13/07/2025",
     location: "Thôn Lam Long, Xuân Hải, Nghi Xuân, Hà Tĩnh",
     img: HuongTra,
     urlMap:
@@ -49,9 +49,9 @@ const events: EventType[] = [
     calendar: {
       name: "🎉TIỆC CƯỚI Hương Trà",
       startDate: "2025-07-13",
-      startTime: "10:30",
+      startTime: "17:00",
       endDate: "2025-07-13",
-      endTime: "12:00",
+      endTime: "20:00",
       timeZone: "Asia/Ho_Chi_Minh",
       label: "Thêm vào lịch",
       language: "vi",

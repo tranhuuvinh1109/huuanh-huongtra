@@ -18,9 +18,12 @@ const BankAccount = () => {
   return (
     <>
       <div className="mt-24">
-        <h1 className="my-4 text-center text-xl font-semibold text-grow-custom md:text-3xl">
-          Những yêu thương phương xa xin gửi về
-        </h1>
+        <div className=" px-10 md:px-24 ">
+          <h1 className="my-4 text-center text-2xl font-semibold text-grow-custom md:text-3xl">Hộp mừng cưới</h1>
+          <h1 className="my-4 text-center text-base font-semibold text-grow-custom md:text-xl">
+            Thật vui vì được gặp và đón tiếp các bạn trong một dịp đặc biệt như đám cưới của chúng tôi
+          </h1>
+        </div>
         <div className="grid gap-2 px-6 md:grid-cols-2">
           {bankAccountList.map((bankAccount) => (
             <BankAccountItem key={bankAccount.bankName} bankAccountData={bankAccount} onSelect={handleSelect} />
